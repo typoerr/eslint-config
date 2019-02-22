@@ -1,10 +1,10 @@
 {
   "name": "eslint-config-nullabletypo",
   "description": "",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "nullabletypo",
   "files": [
-    "index.js",
+    "*.js",
     "README.md",
     "LICENCE"
   ],
@@ -31,7 +31,8 @@
     "typescript": "^3.3.3333"
   },
   "peerDependencies": {
-    "eslint": ">= 5"
+    "eslint": ">= 5",
+    "prettier": ">= 1"
   },
   "keywords": [],
   "scripts": {
