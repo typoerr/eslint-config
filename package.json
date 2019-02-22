@@ -36,8 +36,7 @@
   },
   "keywords": [],
   "scripts": {
-    "release:github":
-     "git add . && git commit -am $npm_package_version --allow-empty && git tag $npm_package_version && git push && git push --tags",
-    "release": "run-s clean compile test release:github"
+    "release":
+     "git add . && git commit -am $npm_package_version --allow-empty && git tag $npm_package_version && git push && git push --tags"
   }
 }
