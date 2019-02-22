@@ -44,3 +44,12 @@ npm i -D https://github.com/nullabletypo/eslint-config-nullabletypo
 ## React(JSX)
 
 - [yannickcr/eslint-plugin-react: React specific linting rules for ESLint](https://github.com/yannickcr/eslint-plugin-react)
+
+React は除外してあるので、必要な場合に追加すること
+
+React 以外でも JSX を使う場合は、`no-unused-var`によってエラーがでるので以下の rule は必須
+
+```json
+"react/jsx-uses-react": "error",
+"react/jsx-uses-vars": "error",
+```
