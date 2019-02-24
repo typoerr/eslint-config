@@ -22,5 +22,6 @@ module.exports = {
     '@typescript-eslint/no-this-alias': 'error',
     '@typescript-eslint/promise-function-async': 'off',
     '@typescript-eslint/restrict-plus-operands': 'error',
+    '@typescript-eslint/no-object-literal-type-assertion': 'off',
   },
 }
