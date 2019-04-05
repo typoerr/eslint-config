@@ -35,8 +35,9 @@ module.exports = {
     '@typescript-eslint/no-for-in-array': 'error',
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/no-object-literal-type-assertion': 'off',
-    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+    '@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
     '@typescript-eslint/prefer-interface': 'off',
     '@typescript-eslint/promise-function-async': 'off',
+    '@typescript-eslint/no-use-before-define': 'off',
   },
 }
