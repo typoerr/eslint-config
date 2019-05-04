@@ -7,13 +7,13 @@ npm i -D https://github.com/nullabletypo/eslint-config-nullabletypo
 `.eslintrc.json`
 
 ```json
-{ "extends": ["nullabletypo"] }
+{ "extends": ["@typoerr/eslint-config"] }
 ```
 
 with TypeScript settings
 
 ```json
-{ "extends": ["nullabletypo", "nullabletypo/+typescript"] }
+{ "extends": ["@typeoerr/eslint-config", "@typoerr/eslint-config/+typescript"] }
 ```
 
 ## VSCode
