@@ -1,7 +1,7 @@
 # Install
 
 ```
-npm i -D https://github.com/nullabletypo/eslint-config-nullabletypo
+npm i -D @typoerr/eslint-config
 ```
 
 `.eslintrc.json`
