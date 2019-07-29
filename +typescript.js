@@ -4,7 +4,7 @@ module.exports = {
     'prettier/@typescript-eslint',
   ],
   plugins: ['@typescript-eslint'],
-  parser: '@typescript-eslint/parser',
+  parser: require.resolve('@typescript-eslint/parser'),
   // TypeScriptで型違反していれば気づけるのでenvやparserOptionsで使いそうなもの全部入れている
   parserOptions: {
     ecmaVersion: 2019,
