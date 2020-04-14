@@ -9,4 +9,8 @@ module.exports = {
     yoda: 'error',
     'one-var': ['error', { initialized: 'never' }],
   },
+  env: {
+    commonjs: true,
+    es6: true,
+  },
 }
