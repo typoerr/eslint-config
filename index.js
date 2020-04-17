@@ -12,5 +12,11 @@ module.exports = {
   env: {
     commonjs: true,
     es6: true,
+    node: true,
   },
+  parserOptions: {
+    ecmaVersion: 9,
+    sourceType: 'module',
+  },
+  ignorePatterns: ['**/public/**', '**/dist/**', '**/node_modules/**'],
 }
