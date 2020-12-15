@@ -37,7 +37,10 @@
   },
   "keywords": [],
   "scripts": {
-    "release": "yarn publish"
+    "npm-publish": "yarn publish",
+    "git-push": "git push -u origin master",
+    "git-push-tag": "git push --tag",
+    "release": "run-s npm-publish git-push git-push-tag"
   },
   "publishConfig": {
     "access": "public"
