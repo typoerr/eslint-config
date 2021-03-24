@@ -16,25 +16,15 @@ with TypeScript settings
 { "extends": ["@typeoerr/eslint-config", "@typoerr/eslint-config/+typescript"] }
 ```
 
-## VSCode
-
-```json
-// prettier
-"prettier.eslintIntegration": true
-"eslint.validate": [
-	"javascript",
-	"javascriptreact",
-	{ "language": "typescript", "autoFix": true },
-	{ "language": "typescriptreact", "autoFix": true }
-],
-```
 
 # Reference
 
 ## ESLint
 
 - [eslint/eslint: A fully pluggable tool for identifying and reporting on patterns in JavaScript](https://github.com/eslint/eslint)
-- [ESLint - Pluggable JavaScript linter](https://eslint.org/) - [List of available rules - ESLint - Pluggable JavaScript linter](https://eslint.org/docs/rules/) - [Configuring ESLint - ESLint - Pluggable JavaScript linter](https://eslint.org/docs/user-guide/configuring)
+- [ESLint - Pluggable JavaScript linter](https://eslint.org/)
+- [List of available rules - ESLint - Pluggable JavaScript linter](https://eslint.org/docs/rules/)
+- [Configuring ESLint - ESLint - Pluggable JavaScript linter](https://eslint.org/docs/user-guide/configuring)
 - [ESLint 最初の一歩 - Qiita](https://qiita.com/mysticatea/items/f523dab04a25f617c87d)
 
 ## Prettier
