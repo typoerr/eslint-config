@@ -61,3 +61,7 @@ React 以外でも JSX を使う場合は、`no-unused-var`によってエラー
 "react/jsx-uses-react": "error",
 "react/jsx-uses-vars": "error",
 ```
+
+## VSCode
+
+- [Prettier - Code formatter - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode 'Prettier - Code formatter - Visual Studio Marketplace')
