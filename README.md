@@ -4,6 +4,8 @@
 npm i -D @typoerr/eslint-config
 ```
 
+# Usage
+
 `.eslintrc.json`
 
 ```json
@@ -16,6 +18,14 @@ with TypeScript settings
 { "extends": ["@typeoerr/eslint-config", "@typoerr/eslint-config/+typescript"] }
 ```
 
+with Prettier
+
+Prettierを使う場合は必ず最後に追加する
+
+```json
+{ "extends": ["@typeoerr/eslint-config", "@typoerr/eslint-config/+typescript", "@typoerr/eslint-config/+prettier"] }
+```
+
 
 # Reference
 
@@ -26,6 +36,7 @@ with TypeScript settings
 - [List of available rules - ESLint - Pluggable JavaScript linter](https://eslint.org/docs/rules/)
 - [Configuring ESLint - ESLint - Pluggable JavaScript linter](https://eslint.org/docs/user-guide/configuring)
 - [ESLint 最初の一歩 - Qiita](https://qiita.com/mysticatea/items/f523dab04a25f617c87d)
+- [teppeis/eslint-config-teppeis: ESLint shareable config for me!](https://github.com/teppeis/eslint-config-teppeis "teppeis/eslint-config-teppeis: ESLint shareable config for me!")
 
 ## Prettier
 

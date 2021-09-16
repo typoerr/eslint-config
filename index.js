@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['eslint:recommended', 'plugin:prettier/recommended'],
+  extends: ['eslint:recommended'],
   rules: {
     'no-sequences': 'error',
     'no-console': ['warn', { allow: ['warn', 'error'] }],
