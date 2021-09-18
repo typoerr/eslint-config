@@ -5,5 +5,5 @@
     "es6": true,
     "node": true
   },
-  "extends": ["./index.js"]
+  "extends": ["./base.js"]
 }
