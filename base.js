@@ -1,14 +1,5 @@
 module.exports = {
   extends: ['eslint:recommended'],
-  rules: {
-    'no-sequences': 'error',
-    'no-console': ['warn', { allow: ['warn', 'error'] }],
-    'default-case': 'error',
-    eqeqeq: ['error', 'smart'],
-    'no-var': 'error',
-    yoda: 'error',
-    'one-var': ['error', { initialized: 'never' }],
-  },
   env: {
     commonjs: true,
     es6: true,
@@ -19,4 +10,13 @@ module.exports = {
     sourceType: 'module',
   },
   ignorePatterns: ['**/public/**', '**/dist/**', '**/node_modules/**'],
+  rules: {
+    'no-sequences': 2,
+    'no-console': [1, { allow: ['warn', 'error'] }],
+    'default-case': 2,
+    eqeqeq: [2, 'smart'],
+    'no-var': 2,
+    yoda: 2,
+    'one-var': [2, { initialized: 'never' }],
+  },
 }
