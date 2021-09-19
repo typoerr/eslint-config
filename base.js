@@ -31,7 +31,7 @@ module.exports = {
           'sibling',
           'parent',
           'index',
-          'type',
+          // 'type',
         ],
         alphabetize: { order: 'asc', caseInsensitive: true },
         'newlines-between': 'never',
