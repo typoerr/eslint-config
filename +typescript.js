@@ -5,7 +5,6 @@ module.exports = {
       files: ['*.ts', '*.tsx'],
       plugins: ['@typescript-eslint'],
       parser: require.resolve('@typescript-eslint/parser'),
-      // TypeScriptで型違反していれば気づけるのでenvやparserOptionsで使いそうなもの全部入れている
       parserOptions: {
         ecmaVersion: 2019,
         ecmaFeatures: {
@@ -13,17 +12,6 @@ module.exports = {
           impliedStrict: true,
         },
         sourceType: 'module',
-        // project: './tsconfig.json',
-      },
-      env: {
-        browser: true,
-        node: true,
-        commonjs: true,
-        es6: true,
-        worker: true,
-        serviceworker: true,
-        jest: true,
-        mocha: true,
       },
       rules: {
         '@typescript-eslint/explicit-function-return-type': 0,
