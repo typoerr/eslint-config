@@ -1,8 +1,11 @@
 module.exports = {
   extends: ['eslint:recommended'],
   parserOptions: {
-    ecmaVersion: 9,
+    ecmaVersion: 'latest',
     sourceType: 'module',
+    ecmaFeatures: {
+      impliedStrict: true,
+    },
   },
   ignorePatterns: ['**/public/**', '**/dist/**', '**/node_modules/**'],
   rules: {
