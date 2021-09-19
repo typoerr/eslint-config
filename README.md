@@ -15,7 +15,7 @@ npm i -D @typoerr/eslint-config
 ### +typeScript
 
 ```json
-{ "extends": ["@typeoerr/eslint-config", "@typoerr/eslint-config/+typescript"] }
+{ "extends": ["@typoerr/eslint-config", "@typoerr/eslint-config/+typescript"] }
 ```
 
 ### +prettier
@@ -25,7 +25,7 @@ Prettier を使う場合は必ず最後に追加する
 ```json
 {
   "extends": [
-    "@typeoerr/eslint-config",
+    "@typoerr/eslint-config",
     "@typoerr/eslint-config/+typescript",
     "@typoerr/eslint-config/+prettier"
   ]
