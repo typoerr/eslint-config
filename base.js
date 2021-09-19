@@ -1,5 +1,6 @@
 module.exports = {
   extends: ['eslint:recommended'],
+  plugins: ['import'],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
@@ -16,5 +17,25 @@ module.exports = {
     'no-var': 2,
     yoda: 2,
     'one-var': [2, { initialized: 'never' }],
+    /* eslint-plugin-import */
+    'import/first': 2,
+    'import/newline-after-import': 2,
+    'import/no-duplicates': 2,
+    'import/order': [
+      2,
+      {
+        groups: [
+          'builtin',
+          'external',
+          'internal',
+          'sibling',
+          'parent',
+          'index',
+          'type',
+        ],
+        alphabetize: { order: 'asc', caseInsensitive: true },
+        'newlines-between': 'never',
+      },
+    ],
   },
 }

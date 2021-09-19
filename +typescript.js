@@ -1,7 +1,10 @@
 module.exports = {
   overrides: [
     {
-      extends: ['plugin:@typescript-eslint/recommended'],
+      extends: [
+        'plugin:@typescript-eslint/recommended',
+        'plugin:import/typescript',
+      ],
       files: ['*.ts', '*.tsx'],
       plugins: ['@typescript-eslint'],
       parser: require.resolve('@typescript-eslint/parser'),
@@ -13,6 +16,14 @@ module.exports = {
         '@typescript-eslint/no-inferrable-types': 0,
         '@typescript-eslint/no-non-null-assertion': 0,
         '@typescript-eslint/no-unused-vars': [1, { argsIgnorePattern: '^_' }],
+      },
+      settings: {
+        'import/parsers': {
+          '@typescript-eslint/parser': ['.ts', '.tsx'],
+        },
+        'import/resolver': {
+          typescript: {},
+        },
       },
     },
   ],
