@@ -35,6 +35,7 @@ Prettier を使う場合は必ず最後に追加する
 ### env
 
 利用環境に合わせて env を指定する
+
 [Language Options - ESLint - Pluggable JavaScript linter](https://eslint.org/docs/user-guide/configuring/language-options#specifying-environments 'Language Options - ESLint - Pluggable JavaScript linter')
 
 # Reference
