@@ -1,7 +1,7 @@
 {
   "name": "@typoerr/eslint-config",
   "description": "eslint config",
-  "version": "0.0.48",
+  "version": "0.0.49",
   "author": "typoerr",
   "files": [
     "*.js",
