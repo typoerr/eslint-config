@@ -60,19 +60,6 @@ Prettier を使う場合は必ず最後に追加する
 - [typescript-eslint/ROADMAP.md at master · typescript-eslint/typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/ROADMAP.md)
 - [@typescript-eslint ことはじめ - teppeis blog](https://teppeis.hatenablog.com/entry/2019/02/typescript-eslint)
 
-## React(JSX)
-
-- [yannickcr/eslint-plugin-react: React specific linting rules for ESLint](https://github.com/yannickcr/eslint-plugin-react)
-
-React は除外してあるので、必要な場合に追加すること
-
-React 以外でも JSX を使う場合は、`no-unused-var`によってエラーがでるので以下の rule は必須
-
-```json
-"react/jsx-uses-react": "error",
-"react/jsx-uses-vars": "error",
-```
-
 ## VSCode
 
 - [Prettier - Code formatter - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode 'Prettier - Code formatter - Visual Studio Marketplace')
